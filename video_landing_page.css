@@ -1,0 +1,73 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.navbar {
+  background: #1e013b;
+}
+
+.navbar-brand {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer {
+  background: #1e013b;
+  color: white;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+.bg-accent {
+  background: rgb(245, 245, 245);
+  padding: 1em;
+  color: rgb(214, 153, 167);
+  text-align: center;
+  margin: 4em 0;
+}
+
+.bg-accent * {
+  font-weight: bold;
+  margin: 0;
+}
+
+.icon-big {
+  font-size: 4em;
+  margin: 0.5em;
+}
+
+.icon-center {
+  display: block;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: rgb(182, 215, 168);
+  border-color: rgb(182, 215, 168);
+}
+
+.gform_button {
+  background-color: rgb(182, 215, 168);
+  border-color: rgb(182, 215, 168);
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  color: white;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+}
+
+.gform_wrapper .top_label label {
+  margin-bottom: 0 !important;
+}
